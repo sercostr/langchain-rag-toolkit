@@ -99,7 +99,7 @@ LangSmith provides tracing and debugging (like observability tools for AI):
 ```
 LANGCHAIN_API_KEY=your-key-here
 LANGCHAIN_TRACING_V2=true
-LANGCHAIN_PROJECT=ai-learning-rag
+LANGCHAIN_PROJECT=langchain-rag-toolkit
 ```
 
 ## Next Steps
