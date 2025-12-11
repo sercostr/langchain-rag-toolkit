@@ -76,16 +76,16 @@ if __name__ == "__main__":
     print("="*50)
     print("1. Basic LLM Call")
     print("="*50)
-    # basic_llm_call()
+    basic_llm_call()
     
     print("\n" + "="*50)
     print("2. Prompt Template Example")
     print("="*50)
-    # prompt_template_example()
+    prompt_template_example()
     
     print("\n" + "="*50)
     print("3. Simple Chain Example")
     print("="*50)
-    # simple_chain_example()
+    simple_chain_example()
     
-    print("\n✅ Uncomment the function calls above to run each example!")
+    print("\n✅ All examples completed!")

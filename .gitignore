@@ -32,6 +32,13 @@ __pycache__/
 data/
 chroma_db/
 
+# Script-generated sample files
+sample_docs.txt
+data_eng_concepts.txt
+de_tools.csv
+architectures.json
+data_pipeline_metrics.db
+
 # Logs
 *.log
 logs/

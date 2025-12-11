@@ -68,13 +68,14 @@ def build_simple_rag():
     # 5. Create RAG chain
     template = """Answer the question based only on the following context:
 
-{context}
+                 {context}
 
-Question: {question}
+                 Question: {question}
 
-Answer: """
+                Answer: """
     
     prompt = ChatPromptTemplate.from_template(template)
+    print('prompt created=', prompt)
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
     
     # Build the chain
@@ -112,10 +113,10 @@ if __name__ == "__main__":
     create_sample_documents()
     
     # Step 2: Build RAG system
-    # rag_chain = build_simple_rag()
+    rag_chain = build_simple_rag()
     
     # Step 3: Test it
-    # test_rag_system(rag_chain)
+    test_rag_system(rag_chain)
     
     print("\n✅ Uncomment the code above to run the RAG system!")
     print("💡 Make sure you have OPENAI_API_KEY in your .env file")
